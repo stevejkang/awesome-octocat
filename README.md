@@ -22,7 +22,10 @@
 > https://github.com/images/mona-loading-default.gif  
 > https://github.com/images/mona-loading-dark.gif
 
-<img src="https://github.com/images/mona-loading-default.gif" width="100">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/images/mona-loading-dark.gif">
+  <img alt="Loading Octocat" src="https://github.com/images/mona-loading-default.gif" width="100">
+</picture>
 
 
 ## 📝 Contributing
